@@ -1,0 +1,34 @@
+This is a collection of utilities that may come in handy
+ for day to day work with a PeopleSoft system.
+
+Ruby Scripts
+------------
+ActionReason.rb 
+	Gather Action/Reason codes and their statistics
+
+HealthStatCompareWithWalgreens.rb
+	Compares clinic compliance results with 
+	the healthcare provider in spreadsheet form
+
+LifeInsuranceDiscrepancies.rb 
+	To find discrepancies in the Life Insurance details
+	based on specific policy set by the City of Lakeland
+
+
+Shell Scripts
+-------------
+changeIP.sh
+	To automatically edit files when migrating a PeopleSoft
+	environment to a new IP address
+
+changeServerName.sh
+	To automatically edit files when migrating a PeopleSoft
+	environment to a new server
+
+fixPeopleTools.sh
+	To repair a PeopleTools/PeopleSoft HRMS installation's
+	file permissions should a sysadmin drop 'chmod -R 777 *'
+
+installPeopleSoft.sh
+	A shell script to automate (as much as possible) the installation
+	of a complete PeopleTools/PeopleSoft HRMS system
